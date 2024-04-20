@@ -1,0 +1,133 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Hide horizontal scrollbar */
+}
+nav {
+    background-color: #d02683;
+    position: relative; /* Set the navigation bar as a relative position container */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Add some padding */
+    border-radius: 20px;
+  }
+  
+  nav ul {
+    
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display:inline-block;
+  }
+  
+  nav ul li a {
+    
+    display: block;
+    padding: 10px 20px;
+    color: #fbf9f9;
+    text-decoration: none;
+    
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  .container {
+    text-align: left; /* Center align the content */
+    padding-left: 230px;
+    margin-top: 200px;
+    overflow:hidden;
+    
+}
+
+.greeting {
+    font-size: 30px; /* Set font size for the greeting */
+    color: #fbf9f9;
+    
+}
+
+.name {
+    font-size: 80px; /* Set larger font size for the name */
+    font-weight: bold; /* Optionally, make the name bold */
+    color: #fbf9f9;
+    font-style: italic;
+  
+
+}
+
+  .ghj {
+    position:absolute; /* Position the container absolutely */
+    top: 50%; /* Position the container at the vertical center */
+    transform: translateY(-50%); /* Adjust vertical position */
+    right: 50px; /* Position the container to the right */
+  
+}
+
+.box {
+    width: 300px; /* Set the width of the box */
+    height: 400px; /* Set the height of the box */
+    padding: 20px; /* Add some padding */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border: 7px solid #f7f4f6; /* Set border to white */
+    box-sizing: border-box; 
+    position: absolute;
+    top: -100px;
+    
+    
+    
+    
+}
+.box img {
+  max-width: 100%; /* Ensure the image doesn't exceed the width of the box */
+  max-height: 100%; /* Ensure the image doesn't exceed the height of the box */
+  display: block; /* Make sure the image is treated as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+}
+.portfolio {
+  font-weight: bold; /* Optionally, make the text bold */
+  position: absolute; /* Position the portfolio element absolutely */
+  top: 10px; /* Align to the top */
+  right: 30px; /* Align to the right */
+  font-size: 40px;
+}
+
+.portfolio .white{
+  color: #f7f4f6;
+}
+.portfolio .black{
+  color: black;
+}
+
+.positioned-image {
+  position: absolute; /* Position the image absolutely */
+  top: -140px; /* Position the image 50 pixels from the top of the container */
+  left: 230px; 
+  width: 100px; /* Set the width of the image */
+  height: auto;
+}
+.positioned-img{
+  position: absolute; /* Position the image absolutely */
+  top: 230px; /* Position the image 50 pixels from the top of the container */
+  right: 300px; 
+  width: 100px; /* Set the width of the image */
+  height: auto;
+
+}
+
+
+
+
+
+
+
+
+ 
+    
