@@ -1,0 +1,90 @@
+.p{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+  }
+
+  .project1{
+    font-size: 15px;
+    font-weight:bold;
+    color:white;
+    font-style: italic;
+    text-align: left; /* Align text to the center */
+  
+    width: 50%;
+    top: 250px;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Align items in a column */
+    justify-content: flex-start; /* Align items at the start of the column (top) */
+    align-items: center; /* Center items horizontally */
+    height: 100vh;
+
+  }
+
+  .project2{
+    font-size: 15px;
+    font-weight:bold;
+    color:white;
+    font-style: italic;
+    text-align: left; /* Align text to the center */
+    width: 50%;
+    top: 250px;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Align items in a column */
+    justify-content: flex-start; /* Align items at the start of the column (top) */
+    align-items: center; /* Center items horizontally */
+    height: 100vh;
+    position: absolute; /* Position the paragraph absolutely */
+    right: -50px;
+
+  }
+  .hack{
+    font-size: 15px;
+    font-weight:bold;
+    color:white;
+    font-style: italic;
+    text-align: left; /* Align text to the center */
+  
+    width: 50%;
+    margin-top: -250px;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Align items in a column */
+    justify-content: flex-start; /* Align items at the start of the column (top) */
+    align-items: center; /* Center items horizontally */
+    height: 100vh;
+
+  }
+  .seminar{
+    font-size: 15px;
+    font-weight:bold;
+    color:white;
+    font-style: italic;
+    text-align: left; /* Align text to the center */
+    width: 50%;
+    margin-top:-250px;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Align items in a column */
+    justify-content: flex-start; /* Align items at the start of the column (top) */
+    align-items: center; /* Center items horizontally */
+    height: 100vh;
+    position: absolute; /* Position the paragraph absolutely */
+    right: -50px;
+
+  }
+  .vw{
+    font-size: 15px;
+    font-weight:bold;
+    color:white;
+    font-style: italic;
+    text-align: left; /* Align text to the center */
+  
+    width: 50%;
+    margin-top: -20px;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Align items in a column */
+    justify-content: flex-start; /* Align items at the start of the column (top) */
+    align-items: center; /* Center items horizontally */
+    height: 100vh;
+
+  }
