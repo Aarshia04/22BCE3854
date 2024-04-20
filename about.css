@@ -1,0 +1,66 @@
+.he{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+  }
+
+  .book{
+    margin-left: 20px; /* Adjust margin to move the image a little to the left */
+    width: 200px;
+    margin-top: 30px;
+
+
+  }
+  .school,.uni,.skills,.goals{
+    font-size: 15px;
+    font-weight:bold;
+    color:white;
+    font-style: italic;
+    text-align: center; /* Align text to the center */
+    margin: 0 auto; /* Set left and right margin to "auto" to center horizontally */
+    width: 50%;
+    top: -50px;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Align items in a column */
+    justify-content: flex-start; /* Align items at the start of the column (top) */
+    align-items: center; /* Center items horizontally */
+    height: 100vh;
+
+  }
+  .school{
+    margin-top: -200px;
+  }
+  .uni{
+    margin-top: -350px;
+  }
+  .skills{
+    float: right; /* Float the text to the right */
+    width: 50%; /* Set width of the text container to 50% */
+    padding: 20px; /* Optional: Add padding for spacing */
+    box-sizing: border-box; 
+  }
+  
+  .sh{
+    color: #d02683;
+  }
+  .hu{
+    color: #d02683;
+  }
+
+  .hs{
+    color: #d02683;
+  }
+  .comp{
+    margin-left: -900px;
+    width: 40%;
+    margin-top: -650px;
+  }
+  .career{
+    color: #d02683;
+
+  }
+  .goals{
+    margin-top: 10px;
+  }
+  
